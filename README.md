@@ -1,1 +1,4 @@
 # Parcial-1-IoT
+
+El proyecto consiste en realizar una serie de mediciones por un periodo de tres días seguidos, utilizando un sensor de temperatura (LM35). Para la transmisión de datos se utilizó un arduino ESP8266, el cual recibe diferentes datos por lapsos de 10 min por parte del sensor de temperatura (LM35) y estos datos son enviados a un canal privado en ThingSpeak para su posterior visualización y ya recopilado datos de temperatura durante 3 días se realiza un análisis usando un script en MATLAB.
+En cuanto a este proyecto se pudo observa que hubieron dificultades en cuanto a las mediciones, puesto que nuestro sensor siempre midió temperaturas muy cercanas. A pesar de tener los registros se pudo percatar que las temperaturas no varían de 31-37, puesto que el sensor pudo haber tenido fallas.
